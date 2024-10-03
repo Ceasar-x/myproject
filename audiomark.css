@@ -713,6 +713,12 @@ h1{
     #songs{
         font-size: 15px;
     }
+    #notwanted{
+        display: none;
+    }
+    #same{
+        display: none;
+    }
     #footer{
         text-align: left;
         height: 100%;
@@ -841,6 +847,12 @@ h1{
     #songs{
         font-size: 15px;
     }
+    #notwanted{
+        display: none;
+    }
+    #same{
+        display: none;
+    }
     #footer{
         text-align: left;
         height: 100%;
@@ -894,9 +906,18 @@ h1{
     #z1{
         display: none;
     }
+    #notwanted{
+        display: none;
+    }
 }
 @media screen and (max-width: 1050px) {
     #ori, #play{
+        display: none;
+    }
+    #notwanted{
+        display: none;
+    }
+    #same{
         display: none;
     }
 }
@@ -904,9 +925,21 @@ h1{
     #up{
         display: none;
     }
+    #notwanted{
+        display: none;
+    }
+    #same{
+        display: none;
+    }
 }
 @media screen and (max-width: 985px) {
     #dis{
+        display: none;
+    }
+    #notwanted{
+        display: none;
+    }
+    #same{
         display: none;
     }
 }
